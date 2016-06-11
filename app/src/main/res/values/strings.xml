@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Iriomote-Navi</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">android.util.Log.d(TAG, "$METHOD_NAME$: $content$");android.util.Log.d(TAG, "$METHOD_NAME$: $content$");android.util.Log.d(TAG, "$METHOD_NAME$: $content$");android.util.Log.d(TAG, "$METHOD_NAME$: $content$");</string>
 </resources>

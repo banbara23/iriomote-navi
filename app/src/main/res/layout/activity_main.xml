@@ -11,9 +11,30 @@
     tools:context="com.ikmr.banbara23.iriomote_navi.MainActivity"
     >
 
-    <TextView
+    <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_below="@+id/button2"
+        android:onClick="photoClick"
+        android:text="写真"
         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:onClick="hotelClick"
+        android:text="めし"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="foodClick"
+        android:text="宿"
+        />
+
 </RelativeLayout>
