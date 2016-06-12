@@ -22,7 +22,7 @@ public class TopActivity extends DrawerActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top);
 
-        setTitle("");
+        setTitle("西表ナビ");
 
         mViewPager = (MaterialViewPager) findViewById(R.id.materialViewPager);
 
@@ -76,13 +76,14 @@ public class TopActivity extends DrawerActivity {
                     case 0:
                         // 観る
                         return HeaderDesign.fromColorResAndDrawable(
-                                R.color.blue,
+                                R.color.green,
                                 ResourcesCompat.getDrawable(getResources(),
                                         R.drawable.miru, null));
                     case 1:
                         // 遊ぶ
                         return HeaderDesign.fromColorResAndDrawable(
-                                R.color.green,
+                                R.color.lime,
+
                                 ResourcesCompat.getDrawable(getResources(),
                                         R.drawable.iriomote_pinai_03, null));
                     case 2:
