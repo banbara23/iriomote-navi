@@ -36,18 +36,16 @@ public class TopActivity extends DrawerActivity {
 
             @Override
             public Fragment getItem(int position) {
-                // switch (position % 4) {
-                // case 0:
-                // return RecyclerViewFragment.newInstance();
-                // case 1:
-                // return RecyclerViewFragment.newInstance();
-                // case 2:
-                // return WebViewFragment.newInstance();
-                // default:
-                // return RecyclerViewFragment.newInstance();
-
-                // }
-                return ScrollFragment.newInstance();
+                switch (position % 4) {
+                    case 0:
+                        return ScrollFragment.newInstance();
+                    case 1:
+                        return ScrollFragment.newInstance();
+                    case 2:
+                        return ScrollFragment.newInstance();
+                    default:
+                        return ScrollFragment.newInstance();
+                }
             }
 
             @Override
