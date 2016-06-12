@@ -1,15 +1,15 @@
 
 package com.ikmr.banbara23.iriomote_navi;
 
+import com.github.florent37.materialviewpager.MaterialViewPagerHelper;
+import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.github.florent37.materialviewpager.MaterialViewPagerHelper;
-import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 
 public class ScrollFragment extends Fragment {
     private ObservableScrollView mScrollView;
